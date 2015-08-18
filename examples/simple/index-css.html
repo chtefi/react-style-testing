@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>react-style-testing-example-title</title>
+    <style>
+    table {
+      border-collapse: collapse;
+    }
+
+    .tableCss td {
+      font-family: Consolas;
+      padding: 10px;
+      color: #444;
+      border: none;
+      border: 3px solid orange;
+      position: relative;
+      width: 15%;
+      height: 25px;
+      letter-spacing: 0;
+      overflow: hidden;
+      font-size: 10px;
+      font-variant: small-caps;
+    }
+    .tableCss tr:nth-child(odd) {
+      background: linear-gradient(to top, #ccc, #eee);
+    }
+    .tableCss tr:nth-child(even) {
+      background: linear-gradient(to top, #eee, #ccc);
+    }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="/static/bundle-css.js"></script>
+  </body>
+</html>
